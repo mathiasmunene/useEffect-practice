@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.user-card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px auto;
+}
+
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.user-name {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+}
+
+.user-role {
+  font-size: 1em;
+  color: #777;
+  margin: 5px 0;
+}
+
+.user-description {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.user-list {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search{
+  text-align: center;
+}
+.search > input {
+  margin: 0 10px;
+}
+
+.search-number, .search-submit {
+  font-size: 1.5em;
+}
