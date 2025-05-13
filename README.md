@@ -1,12 +1,7 @@
-# React + Vite
+# React - useEffect Hook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Todos
+1. Implement a function that will handle getting a random user when the Button **Get Random User** is clicked.
+ - This can be achieved by tracking the url in state and updating the parameter using the numbers between 1 and 10
+2. When the search param is clicked, render the single user card, otherwise, render the entire users list
+3. Use the url as the dependency inside the useEffect hook, such that it loads everytime the URL changes.
