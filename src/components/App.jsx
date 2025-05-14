@@ -1,4 +1,4 @@
-import UserList from "./components/UserList";
+import UserList from "./UserList";
 import { useState, useEffect } from "react";
 
 function App() {
